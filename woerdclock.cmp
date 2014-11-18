@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPcb (2013-jul-07)-stable date = Di 11 Nov 2014 15:23:17 CET
+Cmp-Mod V01 Created by CvPcb (2013-jul-07)-stable date = Di 18 Nov 2014 11:26:10 CET
 
 BeginCmp
 TimeStamp = /5446915B;
@@ -71,10 +71,171 @@ IdModule  = TO92-123;
 EndCmp
 
 BeginCmp
-TimeStamp = /54607B38;
+TimeStamp = /546B024F;
 Reference = K4;
-ValeurCmp = CONN_3;
-IdModule  = PIN_ARRAY_3X1;
+ValeurCmp = WS2812B_OUT;
+IdModule  = LEDstripOUT;
+EndCmp
+
+BeginCmp
+TimeStamp = /546B0206;
+Reference = K5;
+ValeurCmp = WS2812B_OUT;
+IdModule  = LEDstripOUT;
+EndCmp
+
+BeginCmp
+TimeStamp = /546A6134;
+Reference = K6;
+ValeurCmp = WS2812B_IN;
+IdModule  = LEDstripIN;
+EndCmp
+
+BeginCmp
+TimeStamp = /546B01E4;
+Reference = K7;
+ValeurCmp = WS2812B_IN;
+IdModule  = LEDstripIN;
+EndCmp
+
+BeginCmp
+TimeStamp = /546B00BA;
+Reference = K8;
+ValeurCmp = WS2812B_IN;
+IdModule  = LEDstripIN;
+EndCmp
+
+BeginCmp
+TimeStamp = /546B0249;
+Reference = K9;
+ValeurCmp = WS2812B_OUT;
+IdModule  = LEDstripOUT;
+EndCmp
+
+BeginCmp
+TimeStamp = /546B0213;
+Reference = K10;
+ValeurCmp = WS2812B_OUT;
+IdModule  = LEDstripOUT;
+EndCmp
+
+BeginCmp
+TimeStamp = /546A6156;
+Reference = K11;
+ValeurCmp = WS2812B_IN;
+IdModule  = LEDstripIN;
+EndCmp
+
+BeginCmp
+TimeStamp = /546B00B4;
+Reference = K12;
+ValeurCmp = WS2812B_IN;
+IdModule  = LEDstripIN;
+EndCmp
+
+BeginCmp
+TimeStamp = /546B0243;
+Reference = K13;
+ValeurCmp = WS2812B_OUT;
+IdModule  = LEDstripOUT;
+EndCmp
+
+BeginCmp
+TimeStamp = /546B0219;
+Reference = K14;
+ValeurCmp = WS2812B_OUT;
+IdModule  = LEDstripOUT;
+EndCmp
+
+BeginCmp
+TimeStamp = /546A6025;
+Reference = K15;
+ValeurCmp = WS2812B_IN;
+IdModule  = LEDstripIN;
+EndCmp
+
+BeginCmp
+TimeStamp = /546B00AE;
+Reference = K16;
+ValeurCmp = WS2812B_IN;
+IdModule  = LEDstripIN;
+EndCmp
+
+BeginCmp
+TimeStamp = /546B023D;
+Reference = K17;
+ValeurCmp = WS2812B_OUT;
+IdModule  = LEDstripOUT;
+EndCmp
+
+BeginCmp
+TimeStamp = /546B021F;
+Reference = K18;
+ValeurCmp = WS2812B_OUT;
+IdModule  = LEDstripOUT;
+EndCmp
+
+BeginCmp
+TimeStamp = /546A6031;
+Reference = K19;
+ValeurCmp = WS2812B_IN;
+IdModule  = LEDstripIN;
+EndCmp
+
+BeginCmp
+TimeStamp = /546B00A8;
+Reference = K20;
+ValeurCmp = WS2812B_IN;
+IdModule  = LEDstripIN;
+EndCmp
+
+BeginCmp
+TimeStamp = /546B0237;
+Reference = K21;
+ValeurCmp = WS2812B_OUT;
+IdModule  = LEDstripOUT;
+EndCmp
+
+BeginCmp
+TimeStamp = /546B0225;
+Reference = K22;
+ValeurCmp = WS2812B_OUT;
+IdModule  = LEDstripOUT;
+EndCmp
+
+BeginCmp
+TimeStamp = /546A603D;
+Reference = K23;
+ValeurCmp = WS2812B_IN;
+IdModule  = LEDstripIN;
+EndCmp
+
+BeginCmp
+TimeStamp = /546B00A2;
+Reference = K24;
+ValeurCmp = WS2812B_IN;
+IdModule  = LEDstripIN;
+EndCmp
+
+BeginCmp
+TimeStamp = /546B0231;
+Reference = K25;
+ValeurCmp = WS2812B_OUT;
+IdModule  = LEDstripOUT;
+EndCmp
+
+BeginCmp
+TimeStamp = /546B022B;
+Reference = K26;
+ValeurCmp = WS2812B_OUT;
+IdModule  = LEDstripOUT;
+EndCmp
+
+BeginCmp
+TimeStamp = /546A6049;
+Reference = K27;
+ValeurCmp = WS2812B_IN;
+IdModule  = LEDstripIN;
 EndCmp
 
 BeginCmp
@@ -127,6 +288,83 @@ IdModule  = bohrung3mm;
 EndCmp
 
 BeginCmp
+TimeStamp = /546913C2;
+Reference = P8;
+ValeurCmp = CONN_3X2;
+IdModule  = pin_array_3x2;
+EndCmp
+
+BeginCmp
+TimeStamp = /546B0065;
+Reference = P9;
+ValeurCmp = CONN_1;
+IdModule  = bohrung3mm;
+EndCmp
+
+BeginCmp
+TimeStamp = /546A1A7B;
+Reference = P10;
+ValeurCmp = CONN_1;
+IdModule  = bohrung3mm;
+EndCmp
+
+BeginCmp
+TimeStamp = /546A14E8;
+Reference = P11;
+ValeurCmp = CONN_3X2;
+IdModule  = pin_array_3x2;
+EndCmp
+
+BeginCmp
+TimeStamp = /546B006B;
+Reference = P12;
+ValeurCmp = CONN_1;
+IdModule  = bohrung3mm;
+EndCmp
+
+BeginCmp
+TimeStamp = /546A1A75;
+Reference = P13;
+ValeurCmp = CONN_1;
+IdModule  = bohrung3mm;
+EndCmp
+
+BeginCmp
+TimeStamp = /546B0059;
+Reference = P14;
+ValeurCmp = CONN_1;
+IdModule  = bohrung3mm;
+EndCmp
+
+BeginCmp
+TimeStamp = /546A1AC9;
+Reference = P15;
+ValeurCmp = CONN_1;
+IdModule  = bohrung3mm;
+EndCmp
+
+BeginCmp
+TimeStamp = /546B005F;
+Reference = P16;
+ValeurCmp = CONN_1;
+IdModule  = bohrung3mm;
+EndCmp
+
+BeginCmp
+TimeStamp = /546A1A81;
+Reference = P17;
+ValeurCmp = CONN_1;
+IdModule  = bohrung3mm;
+EndCmp
+
+BeginCmp
+TimeStamp = /546B05B9;
+Reference = P18;
+ValeurCmp = CONN_2;
+IdModule  = PIN_ARRAY_2X1;
+EndCmp
+
+BeginCmp
 TimeStamp = /5446A94C;
 Reference = R1;
 ValeurCmp = 2k2;
@@ -137,7 +375,7 @@ BeginCmp
 TimeStamp = /5446AAA0;
 Reference = R2;
 ValeurCmp = LDR;
-IdModule  = R1;
+IdModule  = LDR;
 EndCmp
 
 BeginCmp
@@ -260,6 +498,13 @@ IdModule  = R3;
 EndCmp
 
 BeginCmp
+TimeStamp = /546B02B7;
+Reference = R20;
+ValeurCmp = 200;
+IdModule  = R3;
+EndCmp
+
+BeginCmp
 TimeStamp = /5446A93B;
 Reference = SW1;
 ValeurCmp = up;
@@ -295,10 +540,24 @@ IdModule  = RTC;
 EndCmp
 
 BeginCmp
-TimeStamp = /544651E4;
+TimeStamp = /5468B55C;
 Reference = U3;
-ValeurCmp = ARDUINO_MINI_PRO;
+ValeurCmp = ARDUINO_PRO_MICRO;
 IdModule  = Arduino_pro_micro;
+EndCmp
+
+BeginCmp
+TimeStamp = /5468B7FD;
+Reference = U4;
+ValeurCmp = BH1750FVI_MODULE;
+IdModule  = BH1750FVI_MODULE;
+EndCmp
+
+BeginCmp
+TimeStamp = /546A14BB;
+Reference = U5;
+ValeurCmp = HOHLSTECKER;
+IdModule  = JACK_ALIM;
 EndCmp
 
 BeginCmp
