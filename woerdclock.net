@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source /home/setz/projekte/1410_woerdclock/pcb/woerdclock.sch)
-    (date "Mi 19 Nov 2014 06:05:08 CET")
+    (date "Mi 19 Nov 2014 10:34:11 CET")
     (tool "eeschema (2013-jul-07)-stable"))
   (components
     (comp (ref K3)
@@ -647,18 +647,6 @@
         (pin (num 31) (name LED1) (type BiDi))
         (pin (num 32) (name LED2) (type BiDi))
         (pin (num 34) (name KEY) (type BiDi))))
-    (libpart (lib eigeneBauteile) (part HOHLSTECKER)
-      (footprints
-        (fp hohlstecker))
-      (fields
-        (field (name Reference) U)
-        (field (name Value) HOHLSTECKER)
-        (field (name Footprint) ~)
-        (field (name Datasheet) ~))
-      (pins
-        (pin (num 1) (name ~) (type input))
-        (pin (num 2) (name ~) (type input))
-        (pin (num 3) (name ~) (type input))))
     (libpart (lib eigeneBauteile) (part RFM12B)
       (fields
         (field (name Reference) U)
@@ -727,7 +715,19 @@
       (pins
         (pin (num 1) (name 5V) (type input))
         (pin (num 2) (name DOUT) (type input))
-        (pin (num 3) (name GND) (type input)))))
+        (pin (num 3) (name GND) (type input))))
+    (libpart (lib eigeneBauteile) (part HOHLSTECKER)
+      (footprints
+        (fp hohlstecker))
+      (fields
+        (field (name Reference) U)
+        (field (name Value) HOHLSTECKER)
+        (field (name Footprint) ~)
+        (field (name Datasheet) ~))
+      (pins
+        (pin (num 1) (name ~) (type input))
+        (pin (num 2) (name ~) (type input))
+        (pin (num 3) (name ~) (type input)))))
   (libraries
     (library (logical device)
       (uri /usr/share/kicad/library/device.lib))
@@ -752,8 +752,8 @@
       (node (ref K8) (pin 1))
       (node (ref P11) (pin 6))
       (node (ref P8) (pin 6))
-      (node (ref U5) (pin 3))
       (node (ref K14) (pin 1))
+      (node (ref U5) (pin 1))
       (node (ref K7) (pin 2))
       (node (ref K5) (pin 1))
       (node (ref K10) (pin 1))
@@ -866,7 +866,7 @@
       (node (ref JP3) (pin 2))
       (node (ref U4) (pin 5))
       (node (ref U4) (pin 2))
-      (node (ref U5) (pin 1))
+      (node (ref U5) (pin 2))
       (node (ref P11) (pin 3))
       (node (ref P11) (pin 5))
       (node (ref K2) (pin 1))
@@ -1031,7 +1031,7 @@
     (net (code 66) (name "")
       (node (ref U1) (pin 3)))
     (net (code 67) (name "")
-      (node (ref U5) (pin 2)))
+      (node (ref U5) (pin 3)))
     (net (code 68) (name /txBT2)
       (node (ref U3) (pin 20))
       (node (ref BT2) (pin 1)))
