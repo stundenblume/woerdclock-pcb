@@ -37,7 +37,7 @@ $Descr A3 11693 16535 portrait
 encoding utf-8
 Sheet 1 1
 Title "Wördclock"
-Date "18 nov 2014"
+Date "19 nov 2014"
 Rev "0.2"
 Comp "http://sebastian.setz.name"
 Comment1 "https://github.com/stundenblume/woerdclock-pcb"
@@ -149,7 +149,7 @@ Text Notes 9350 1650 0    60   ~ 0
 Soundmodul
 Text Label 2750 1550 0    60   ~ 0
 txBT1
-Text Label 1350 1450 2    60   ~ 0
+Text Label 1350 1650 2    60   ~ 0
 DHT
 Text Label 1350 1550 2    60   ~ 0
 IR
@@ -189,7 +189,7 @@ Text Label 1350 1850 2    60   ~ 0
 WS2811
 Text Label 1450 6100 2    60   ~ 0
 WS2811
-Text Label 1350 1650 2    60   ~ 0
+Text Label 1350 1450 2    60   ~ 0
 Buttons/LDR
 Text Label 750  1700 2    60   ~ 0
 DCF77
