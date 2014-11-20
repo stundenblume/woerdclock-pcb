@@ -191,7 +191,7 @@ Text Label 1450 6100 2    60   ~ 0
 WS2811
 Text Label 1350 1450 2    60   ~ 0
 Buttons/LDR
-Text Label 750  1700 2    60   ~ 0
+Text Label 700  1800 1    60   ~ 0
 DCF77
 Text Label 6600 3050 3    60   ~ 0
 DCF77
@@ -356,26 +356,26 @@ $EndComp
 $Comp
 L GND #PWR010
 U 1 1 5446A9FD
-P 2800 4450
-F 0 "#PWR010" H 2800 4450 30  0001 C CNN
-F 1 "GND" H 2800 4380 30  0001 C CNN
-F 2 "" H 2800 4450 60  0001 C CNN
-F 3 "" H 2800 4450 60  0001 C CNN
-	1    2800 4450
-	1    0    0    -1  
+P 800 3150
+F 0 "#PWR010" H 800 3150 30  0001 C CNN
+F 1 "GND" H 800 3080 30  0001 C CNN
+F 2 "" H 800 3150 60  0001 C CNN
+F 3 "" H 800 3150 60  0001 C CNN
+	1    800  3150
+	0    1    1    0   
 $EndComp
 Text Label 1400 4500 2    60   ~ 0
 Buttons/LDR
 $Comp
 L VCC #PWR011
 U 1 1 5446A989
-P 800 3150
-F 0 "#PWR011" H 800 3250 30  0001 C CNN
-F 1 "VCC" H 800 3250 30  0000 C CNN
-F 2 "" H 800 3150 60  0001 C CNN
-F 3 "" H 800 3150 60  0001 C CNN
-	1    800  3150
-	0    -1   -1   0   
+P 2800 4450
+F 0 "#PWR011" H 2800 4550 30  0001 C CNN
+F 1 "VCC" H 2800 4550 30  0000 C CNN
+F 2 "" H 2800 4450 60  0001 C CNN
+F 3 "" H 2800 4450 60  0001 C CNN
+	1    2800 4450
+	-1   0    0    1   
 $EndComp
 $Comp
 L R R1
@@ -2135,17 +2135,8 @@ NoConn ~ 1300 7150
 NoConn ~ 2250 11850
 Text Label 3250 6650 2    60   ~ 0
 IRQ
-Text Label 750  1800 2    60   ~ 0
+Text Label 900  1800 1    60   ~ 0
 IRQ
-Wire Wire Line
-	1350 1750 850  1750
-Wire Wire Line
-	850  1700 850  1800
-Wire Wire Line
-	850  1700 750  1700
-Wire Wire Line
-	850  1800 750  1800
-Connection ~ 850  1750
 Wire Notes Line
 	1300 8400 1300 10300
 Wire Notes Line
@@ -2182,4 +2173,19 @@ Wire Wire Line
 Wire Wire Line
 	2050 5900 2050 6100
 Connection ~ 2050 6100
+$Comp
+L CONN_3 K?
+U 1 1 546E37C5
+P 800 2150
+F 0 "K?" V 750 2150 50  0000 C CNN
+F 1 "CONN_3" V 850 2150 40  0000 C CNN
+F 2 "" H 800 2150 60  0000 C CNN
+F 3 "" H 800 2150 60  0000 C CNN
+	1    800  2150
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	1350 1750 800  1750
+Wire Wire Line
+	800  1750 800  1800
 $EndSCHEMATC
