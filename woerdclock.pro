@@ -1,6 +1,6 @@
-update=Mi 12 Nov 2014 05:56:37 CET
+update=Do 20 Nov 2014 10:21:28 CET
 version=1
-last_client=eeschema
+last_client=pcbnew
 [cvpcb]
 version=1
 NetIExt=net
@@ -8,37 +8,6 @@ NetIExt=net
 EquName1=devcms
 [general]
 version=1
-[pcbnew]
-version=1
-PadDrlX=320
-PadDimH=600
-PadDimV=600
-BoardThickness=630
-TxtPcbV=800
-TxtPcbH=600
-TxtModV=600
-TxtModH=600
-TxtModW=120
-VEgarde=100
-DrawLar=150
-EdgeLar=150
-TxtLar=120
-MSegLar=150
-LastNetListRead=wordclcockV01.net
-[pcbnew/libraries]
-LibDir=../../kiCAD/bibliotheken
-LibName1=sockets
-LibName2=connect
-LibName3=discret
-LibName4=pin_array
-LibName5=divers
-LibName6=libcms
-LibName7=display
-LibName8=led
-LibName9=dip_sockets
-LibName10=pga_sockets
-LibName11=valves
-LibName12=eigeneFootprints
 [eeschema]
 version=1
 LibDir=../../kiCAD/bibliotheken
@@ -79,3 +48,37 @@ LibName28=atmel
 LibName29=contrib
 LibName30=valves
 LibName31=/home/setz/projekte/kiCAD/bibliotheken/eigeneBauteile
+[pcbnew]
+version=1
+LastNetListRead=wordclcockV01.net
+UseCmpFile=1
+PadDrill="    1,016000"
+PadDrillOvalY="    1,016000"
+PadSizeH="    4,000000"
+PadSizeV="    4,500000"
+PcbTextSizeV="    2,032000"
+PcbTextSizeH="    1,524000"
+PcbTextThickness="    0,304800"
+ModuleTextSizeV="    1,524000"
+ModuleTextSizeH="    1,524000"
+ModuleTextSizeThickness="    0,304800"
+SolderMaskClearance="    0,254000"
+SolderMaskMinWidth="    0,000000"
+DrawSegmentWidth="    0,381000"
+BoardOutlineThickness="    0,381000"
+ModuleOutlineThickness="    0,381000"
+[pcbnew/libraries]
+LibDir=../../kiCAD/bibliotheken
+LibName1=/home/setz/projekte/kiCAD/bibliotheken/eigeneFootprints
+LibName2=sockets
+LibName3=connect
+LibName4=discret
+LibName5=pin_array
+LibName6=divers
+LibName7=libcms
+LibName8=display
+LibName9=led
+LibName10=dip_sockets
+LibName11=pga_sockets
+LibName12=valves
+LibName13=eigeneFootprints

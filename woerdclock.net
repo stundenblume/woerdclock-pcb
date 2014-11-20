@@ -1,7 +1,7 @@
 (export (version D)
   (design
-    (source /home/setz/projekte/1410_woerdclock/pcb/woerdclock.sch)
-    (date "Mi 19 Nov 2014 10:34:11 CET")
+    (source /home/setz/projekte/00_elektro/1410_woerdclock/pcb/woerdclock.sch)
+    (date "Mi 19 Nov 2014 15:38:43 CET")
     (tool "eeschema (2013-jul-07)-stable"))
   (components
     (comp (ref K3)
@@ -115,22 +115,22 @@
       (sheetpath (names /) (tstamps /))
       (tstamp 5446A268))
     (comp (ref D1)
-      (value LED)
+      (value "BT1 paired")
       (libsource (lib device) (part LED))
       (sheetpath (names /) (tstamps /))
       (tstamp 5446A267))
     (comp (ref D2)
-      (value LED)
+      (value mode)
       (libsource (lib device) (part LED))
       (sheetpath (names /) (tstamps /))
       (tstamp 5446A266))
     (comp (ref D4)
-      (value LED)
+      (value mode)
       (libsource (lib device) (part LED))
       (sheetpath (names /) (tstamps /))
       (tstamp 5446A1BA))
     (comp (ref D3)
-      (value LED)
+      (value "BT2 paired")
       (libsource (lib device) (part LED))
       (sheetpath (names /) (tstamps /))
       (tstamp 5446A1B4))
@@ -647,6 +647,18 @@
         (pin (num 31) (name LED1) (type BiDi))
         (pin (num 32) (name LED2) (type BiDi))
         (pin (num 34) (name KEY) (type BiDi))))
+    (libpart (lib eigeneBauteile) (part HOHLSTECKER)
+      (footprints
+        (fp hohlstecker))
+      (fields
+        (field (name Reference) U)
+        (field (name Value) HOHLSTECKER)
+        (field (name Footprint) ~)
+        (field (name Datasheet) ~))
+      (pins
+        (pin (num 1) (name ~) (type input))
+        (pin (num 2) (name ~) (type input))
+        (pin (num 3) (name ~) (type input))))
     (libpart (lib eigeneBauteile) (part RFM12B)
       (fields
         (field (name Reference) U)
@@ -715,19 +727,7 @@
       (pins
         (pin (num 1) (name 5V) (type input))
         (pin (num 2) (name DOUT) (type input))
-        (pin (num 3) (name GND) (type input))))
-    (libpart (lib eigeneBauteile) (part HOHLSTECKER)
-      (footprints
-        (fp hohlstecker))
-      (fields
-        (field (name Reference) U)
-        (field (name Value) HOHLSTECKER)
-        (field (name Footprint) ~)
-        (field (name Datasheet) ~))
-      (pins
-        (pin (num 1) (name ~) (type input))
-        (pin (num 2) (name ~) (type input))
-        (pin (num 3) (name ~) (type input)))))
+        (pin (num 3) (name GND) (type input)))))
   (libraries
     (library (logical device)
       (uri /usr/share/kicad/library/device.lib))
