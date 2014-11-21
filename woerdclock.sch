@@ -37,7 +37,7 @@ $Descr A3 11693 16535 portrait
 encoding utf-8
 Sheet 1 1
 Title "Wördclock"
-Date "20 nov 2014"
+Date "21 nov 2014"
 Rev "0.2"
 Comp "http://sebastian.setz.name"
 Comment1 "https://github.com/stundenblume/woerdclock-pcb"
@@ -2158,7 +2158,7 @@ L CONN_2 JP5
 U 1 1 546B7A27
 P 2500 5800
 F 0 "JP5" V 2450 5800 40  0000 C CNN
-F 1 "CONN_2" V 2550 5800 40  0000 C CNN
+F 1 "bypass minutes" V 2550 5800 40  0000 C CNN
 F 2 "" H 2500 5800 60  0000 C CNN
 F 3 "" H 2500 5800 60  0000 C CNN
 	1    2500 5800
@@ -2174,11 +2174,11 @@ Wire Wire Line
 	2050 5900 2050 6100
 Connection ~ 2050 6100
 $Comp
-L CONN_3 K?
+L CONN_3 JP6
 U 1 1 546E37C5
 P 800 2150
-F 0 "K?" V 750 2150 50  0000 C CNN
-F 1 "CONN_3" V 850 2150 40  0000 C CNN
+F 0 "JP6" V 750 2150 50  0000 C CNN
+F 1 "DCF77   RFM12B" V 850 2150 40  0000 C CNN
 F 2 "" H 800 2150 60  0000 C CNN
 F 3 "" H 800 2150 60  0000 C CNN
 	1    800  2150

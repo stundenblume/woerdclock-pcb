@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPcb (2013-jul-07)-stable date = Di 18 Nov 2014 18:00:51 CET
+Cmp-Mod V01 Created by CvPcb (2013-jul-07)-stable date = Fr 21 Nov 2014 18:25:47 CET
 
 BeginCmp
 TimeStamp = /54465BF4;
@@ -38,28 +38,28 @@ EndCmp
 BeginCmp
 TimeStamp = /5446A267;
 Reference = D1;
-ValeurCmp = LED;
+ValeurCmp = BT1 paired;
 IdModule  = LED-3MM;
 EndCmp
 
 BeginCmp
 TimeStamp = /5446A266;
 Reference = D2;
-ValeurCmp = LED;
+ValeurCmp = mode;
 IdModule  = LED-3MM;
 EndCmp
 
 BeginCmp
 TimeStamp = /5446A1B4;
 Reference = D3;
-ValeurCmp = LED;
+ValeurCmp = BT2 paired;
 IdModule  = LED-3MM;
 EndCmp
 
 BeginCmp
 TimeStamp = /5446A1BA;
 Reference = D4;
-ValeurCmp = LED;
+ValeurCmp = mode;
 IdModule  = LED-3MM;
 EndCmp
 
@@ -96,6 +96,13 @@ TimeStamp = /546B7A27;
 Reference = JP5;
 ValeurCmp = CONN_2;
 IdModule  = PIN_ARRAY_2X1;
+EndCmp
+
+BeginCmp
+TimeStamp = /546E37C5;
+Reference = JP6;
+ValeurCmp = DCF77   RFM12B;
+IdModule  = PIN_ARRAY_3X1;
 EndCmp
 
 BeginCmp
@@ -577,7 +584,7 @@ EndCmp
 BeginCmp
 TimeStamp = /546A14BB;
 Reference = U5;
-ValeurCmp = 5V 8A;
+ValeurCmp = 5V 8A -Co+;
 IdModule  = JACK_ALIM;
 EndCmp
 
