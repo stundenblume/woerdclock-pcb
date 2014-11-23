@@ -1,11 +1,6 @@
-update=Do 20 Nov 2014 10:21:28 CET
+update=So 23 Nov 2014 08:31:20 CET
 version=1
-last_client=pcbnew
-[cvpcb]
-version=1
-NetIExt=net
-[cvpcb/libraries]
-EquName1=devcms
+last_client=cvpcb
 [general]
 version=1
 [eeschema]
@@ -68,7 +63,6 @@ DrawSegmentWidth="    0,381000"
 BoardOutlineThickness="    0,381000"
 ModuleOutlineThickness="    0,381000"
 [pcbnew/libraries]
-LibDir=../../kiCAD/bibliotheken
 LibName1=/home/setz/projekte/kiCAD/bibliotheken/eigeneFootprints
 LibName2=sockets
 LibName3=connect
@@ -81,4 +75,9 @@ LibName9=led
 LibName10=dip_sockets
 LibName11=pga_sockets
 LibName12=valves
-LibName13=eigeneFootprints
+LibDir=../../kiCAD/bibliotheken
+[cvpcb]
+version=1
+NetIExt=net
+[cvpcb/libraries]
+EquName1=devcms
