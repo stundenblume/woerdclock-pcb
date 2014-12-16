@@ -1,4 +1,4 @@
-PCBNEW-BOARD Version 2 date So 23 Nov 2014 23:14:35 CET
+PCBNEW-BOARD Version 2 date Mo 15 Dez 2014 22:04:17 CET
 
 # Created by Pcbnew(2013-jul-07)-stable
 
@@ -9,8 +9,8 @@ LayerCount 2
 EnabledLayers 1FFF8001
 Links 196
 NoConn 46
-Di -6.134733 -3.0834 306.134733 76.0896
-Ndraw 43
+Di -6.134733 -3.0834 306.134733 142.7
+Ndraw 45
 Ntrack 476
 Nzone 0
 BoardThickness 1.6002
@@ -21,7 +21,7 @@ $EndGENERAL
 $SHEETDESCR
 Sheet A3 16535 11693
 Title ""
-Date "23 nov 2014"
+Date "15 dec 2014"
 Rev ""
 Comp ""
 Comment1 ""
@@ -1634,13 +1634,13 @@ Po 7.62 -13.97
 $EndPAD
 $EndMODULE Arduino_pro_micro
 $MODULE ESP8266
-Po 52.07 50.673 0 15 5470FB93 54698401 ~~
+Po 52.07 50.673 0 15 548C400B 54698401 ~~
 Li ESP8266
 Sc 54698401
 AR /5446588F
 Op 0 0 0
 T0 7.62 10.16 1.524 1.524 900 0.3048 N I 21 N "U8"
-T1 8.89 -1.143 1.524 1.524 0 0.3048 N V 21 N "ESP8266"
+T1 10.43 -0.673 1 1 0 0.2 N V 21 N "ESP8266"
 DS 14.605 0 14.605 24.765 0.381 21
 DS 14.605 24.765 0 24.765 0.381 21
 DS 0 24.765 0 0 0.381 21
@@ -4938,6 +4938,35 @@ DS 0 0 0.5 -1.5 0.3 21
 DC 0 0 2 0 0.3 21
 $EndMODULE woerdclock_logo
 $TEXTPCB
+Te "- Arduino"
+nl "- RTC"
+nl "- 1x Bluetooth"
+nl "- Buttons"
+nl "- Mic"
+nl "- LDR"
+Po 155.5 118.5 3 3 0.2 0
+De 21 1 0 Normal L C
+$EndTEXTPCB
+$TEXTPCB
+Te "- ESP8266 Umrandung nicht mittig"
+nl "- RTC Outline passt nicht"
+nl "- 10DOF Outline verschoben"
+nl "- LDR Silkscreen mit Schlangenlinien"
+nl "- HC-05 Silkscreen mit Schlangenlinien und Pins beschriften"
+nl "- Löcher BH1750 passen nicht"
+nl "- DHT11 etwas zu klein"
+nl "- pro micro etwas zu klein"
+nl "- mic besser positionieren"
+nl "- LDR cleverer anordnen"
+nl "- Mic cleverer anordnen"
+nl "- kein fertiges Mic Modul mehr verwenden"
+nl "- 3v3 kondensatoren laut datenblatt"
+nl "- 3v3 footprint berichtigen"
+nl "- LEDs der Bluetooth Module per Jumper abschaltbar"
+Po 132 30 3 3 0.15 0
+De 21 1 0 Normal L C
+$EndTEXTPCB
+$TEXTPCB
 Te "https://github.com/stundenblume/woerdclock"
 Po 223.25 1.143 0.9 0.9 0.15 0
 De 21 1 0 Normal
@@ -5435,9 +5464,9 @@ De 15 0 13 0 0
 Po 0 68.834 41.275 74.93 47.371 0.17 -1
 De 15 0 13 546095B3 0
 Po 0 85.852 34.925 85.852 38.608 0.17 -1
-De 15 0 14 0 400000
+De 15 0 14 0 0
 Po 0 85.852 38.608 83.185 41.275 0.17 -1
-De 15 0 14 5472DFE2 800000
+De 15 0 14 5472DFE2 0
 Po 0 55.88 73.533 55.88 73.533 0.17 -1
 De 15 0 15 0 0
 Po 0 57.15 72.263 64.135 72.263 0.17 -1

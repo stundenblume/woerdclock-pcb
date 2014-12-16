@@ -1,8 +1,46 @@
-update=So 23 Nov 2014 08:31:20 CET
+update=Fr 12 Dez 2014 22:41:15 CET
 version=1
-last_client=cvpcb
+last_client=eeschema
 [general]
 version=1
+[pcbnew]
+version=1
+LastNetListRead=wordclcockV01.net
+UseCmpFile=1
+PadDrill="    1,016000"
+PadDrillOvalY="    1,016000"
+PadSizeH="    4,000000"
+PadSizeV="    4,500000"
+PcbTextSizeV="    2,032000"
+PcbTextSizeH="    1,524000"
+PcbTextThickness="    0,304800"
+ModuleTextSizeV="    1,524000"
+ModuleTextSizeH="    1,524000"
+ModuleTextSizeThickness="    0,304800"
+SolderMaskClearance="    0,254000"
+SolderMaskMinWidth="    0,000000"
+DrawSegmentWidth="    0,381000"
+BoardOutlineThickness="    0,381000"
+ModuleOutlineThickness="    0,381000"
+[pcbnew/libraries]
+LibName1=/home/setz/projekte/kiCAD/bibliotheken/eigeneFootprints
+LibName2=sockets
+LibName3=connect
+LibName4=discret
+LibName5=pin_array
+LibName6=divers
+LibName7=libcms
+LibName8=display
+LibName9=led
+LibName10=dip_sockets
+LibName11=pga_sockets
+LibName12=valves
+LibDir=../../kiCAD/bibliotheken
+[cvpcb]
+version=1
+NetIExt=net
+[cvpcb/libraries]
+EquName1=devcms
 [eeschema]
 version=1
 LibDir=../../kiCAD/bibliotheken
@@ -43,41 +81,3 @@ LibName28=atmel
 LibName29=contrib
 LibName30=valves
 LibName31=/home/setz/projekte/kiCAD/bibliotheken/eigeneBauteile
-[pcbnew]
-version=1
-LastNetListRead=wordclcockV01.net
-UseCmpFile=1
-PadDrill="    1,016000"
-PadDrillOvalY="    1,016000"
-PadSizeH="    4,000000"
-PadSizeV="    4,500000"
-PcbTextSizeV="    2,032000"
-PcbTextSizeH="    1,524000"
-PcbTextThickness="    0,304800"
-ModuleTextSizeV="    1,524000"
-ModuleTextSizeH="    1,524000"
-ModuleTextSizeThickness="    0,304800"
-SolderMaskClearance="    0,254000"
-SolderMaskMinWidth="    0,000000"
-DrawSegmentWidth="    0,381000"
-BoardOutlineThickness="    0,381000"
-ModuleOutlineThickness="    0,381000"
-[pcbnew/libraries]
-LibName1=/home/setz/projekte/kiCAD/bibliotheken/eigeneFootprints
-LibName2=sockets
-LibName3=connect
-LibName4=discret
-LibName5=pin_array
-LibName6=divers
-LibName7=libcms
-LibName8=display
-LibName9=led
-LibName10=dip_sockets
-LibName11=pga_sockets
-LibName12=valves
-LibDir=../../kiCAD/bibliotheken
-[cvpcb]
-version=1
-NetIExt=net
-[cvpcb/libraries]
-EquName1=devcms

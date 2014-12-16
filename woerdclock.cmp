@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPcb (2013-jul-07)-stable date = So 23 Nov 2014 08:32:35 CET
+Cmp-Mod V01 Created by CvPcb (2013-jul-07)-stable date = Mo 08 Dez 2014 21:13:13 CET
 
 BeginCmp
 TimeStamp = /54465BF4;
@@ -64,6 +64,13 @@ IdModule  = LED-3MM;
 EndCmp
 
 BeginCmp
+TimeStamp = /547736CF;
+Reference = D5;
+ValeurCmp = ZENERSMALL;
+IdModule  = D3;
+EndCmp
+
+BeginCmp
 TimeStamp = /5460D43D;
 Reference = JP1;
 ValeurCmp = JP1;
@@ -80,7 +87,7 @@ EndCmp
 BeginCmp
 TimeStamp = /5446AAB3;
 Reference = JP3;
-ValeurCmp = JP3;
+ValeurCmp = (prog.);
 IdModule  = PIN_ARRAY_2X1;
 EndCmp
 
@@ -407,6 +414,13 @@ IdModule  = R3_SebSetz;
 EndCmp
 
 BeginCmp
+TimeStamp = /54773EC9;
+Reference = R2;
+ValeurCmp = 100;
+IdModule  = R3_SebSetz;
+EndCmp
+
+BeginCmp
 TimeStamp = /5446A93A;
 Reference = R3;
 ValeurCmp = 220;
@@ -472,7 +486,7 @@ EndCmp
 BeginCmp
 TimeStamp = /5446B05E;
 Reference = R12;
-ValeurCmp = 2k2;
+ValeurCmp = 3k3;
 IdModule  = R3_SebSetz;
 EndCmp
 
@@ -507,7 +521,7 @@ EndCmp
 BeginCmp
 TimeStamp = /5446AFDF;
 Reference = R17;
-ValeurCmp = 1k;
+ValeurCmp = 1k8;
 IdModule  = R3_SebSetz;
 EndCmp
 
@@ -528,14 +542,21 @@ EndCmp
 BeginCmp
 TimeStamp = /546B02B7;
 Reference = R20;
-ValeurCmp = 200;
+ValeurCmp = 220;
+IdModule  = R3_SebSetz;
+EndCmp
+
+BeginCmp
+TimeStamp = /54860AC0;
+Reference = R21;
+ValeurCmp = 10k;
 IdModule  = R3_SebSetz;
 EndCmp
 
 BeginCmp
 TimeStamp = /5446A93B;
 Reference = SW1;
-ValeurCmp = up;
+ValeurCmp = >;
 IdModule  = SW_PUSH_SMALL;
 EndCmp
 
@@ -549,7 +570,7 @@ EndCmp
 BeginCmp
 TimeStamp = /5446A94A;
 Reference = SW3;
-ValeurCmp = down;
+ValeurCmp = <;
 IdModule  = SW_PUSH_SMALL;
 EndCmp
 
@@ -563,21 +584,21 @@ EndCmp
 BeginCmp
 TimeStamp = /544654F3;
 Reference = U2;
-ValeurCmp = RTC_MODUL;
+ValeurCmp = RTC;
 IdModule  = RTC;
 EndCmp
 
 BeginCmp
 TimeStamp = /5468B55C;
 Reference = U3;
-ValeurCmp = ARDUINO_PRO_MICRO;
+ValeurCmp = Arduino pro micro;
 IdModule  = Arduino_pro_micro;
 EndCmp
 
 BeginCmp
 TimeStamp = /5468B7FD;
 Reference = U4;
-ValeurCmp = BH1750FVI_MODULE;
+ValeurCmp = BH1750FVI;
 IdModule  = BH1750FVI_MODULE;
 EndCmp
 
@@ -612,7 +633,7 @@ EndCmp
 BeginCmp
 TimeStamp = /538C6F5A;
 Reference = U11;
-ValeurCmp = DHT;
+ValeurCmp = DHT11;
 IdModule  = DHT11;
 EndCmp
 
