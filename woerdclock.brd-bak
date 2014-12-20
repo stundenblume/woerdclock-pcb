@@ -1,4 +1,4 @@
-PCBNEW-BOARD Version 2 date Mo 15 Dez 2014 21:49:41 CET
+PCBNEW-BOARD Version 2 date Mi 17 Dez 2014 19:48:43 CET
 
 # Created by Pcbnew(2013-jul-07)-stable
 
@@ -21,7 +21,7 @@ $EndGENERAL
 $SHEETDESCR
 Sheet A3 16535 11693
 Title ""
-Date "15 dec 2014"
+Date "17 dec 2014"
 Rev ""
 Comp ""
 Comment1 ""
@@ -4962,6 +4962,8 @@ nl "- Mic cleverer anordnen"
 nl "- kein fertiges Mic Modul mehr verwenden"
 nl "- 3v3 kondensatoren laut datenblatt"
 nl "- 3v3 footprint berichtigen"
+nl "- LEDs der Bluetooth Module per Jumper abschaltbar"
+nl "- Bluetooth an change interrupt"
 Po 132 30 3 3 0.15 0
 De 21 1 0 Normal L C
 $EndTEXTPCB

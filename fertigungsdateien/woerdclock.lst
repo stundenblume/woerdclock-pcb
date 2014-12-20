@@ -1,0 +1,192 @@
+eeschema (2013-jul-07)-stable  >> Creation date: Mo 08 Dez 2014 21:15:27 CET
+#Komponenten ( Sortiert nach Referenz )
+| BT1        HC-05       
+| BT2        HC-05       
+| C1         0,1uF       
+| C2         0,1uF       
+| C3         0,1uF       
+| D1         BT1 paired  
+| D2         mode        
+| D3         BT2 paired  
+| D4         mode        
+| D5         ZENERSMALL  
+| JP1        JP1         
+| JP2        JP2         
+| JP3        (prog.)     
+| JP4        JP4         
+| JP5        bypass minutes
+| JP6        DCF77   RFM12B
+| K1         Sound       
+| K2         IR          
+| K3         3V3         
+| K4         WS2812B_OUT 
+| K5         WS2812B_OUT 
+| K6         WS2812B_IN  
+| K7         WS2812B_IN  
+| K8         WS2812B_IN  
+| K9         WS2812B_OUT 
+| K10        WS2812B_OUT 
+| K11        WS2812B_IN  
+| K12        WS2812B_IN  
+| K13        WS2812B_OUT 
+| K14        WS2812B_OUT 
+| K15        WS2812B_IN  
+| K16        WS2812B_IN  
+| K17        WS2812B_OUT 
+| K18        WS2812B_OUT 
+| K19        WS2812B_IN  
+| K20        WS2812B_IN  
+| K21        WS2812B_OUT 
+| K22        WS2812B_OUT 
+| K23        WS2812B_IN  
+| K24        WS2812B_IN  
+| K25        WS2812B_OUT 
+| K26        WS2812B_OUT 
+| K27        WS2812B_IN  
+| LDR1       LDR         
+| P4         CONN_1      
+| P5         CONN_1      
+| P6         CONN_1      
+| P7         CONN_1      
+| P8         CONN_3X2    
+| P9         CONN_1      
+| P10        CONN_1      
+| P11        CONN_3X2    
+| P12        CONN_1      
+| P13        CONN_1      
+| P14        CONN_1      
+| P15        CONN_1      
+| P16        CONN_1      
+| P17        CONN_1      
+| R1         2k2         
+| R2         100         
+| R3         220         
+| R4         390         
+| R5         680         
+| R6         10k         
+| R7         470         
+| R8         470         
+| R9         10k         
+| R10        470         
+| R11        470         
+| R12        3k3         
+| R13        3k3         
+| R14        3k3         
+| R15        1k8         
+| R16        1k8         
+| R17        1k8         
+| R18        680         
+| R19        10k         
+| R20        220         
+| R21        10k         
+| SW1        >           
+| SW2        ok          
+| SW3        <           
+| U1         RFM12B      
+| U2         RTC         
+| U3         Arduino pro micro
+| U4         BH1750FVI   
+| U5         5V 8A -Co+  
+| U8         ESP8266     
+| U9         10DOF       
+| U10        DCF77       
+| U11        DHT11       
+| U14        SD-CARD     
+#End Cmp
+
+#Komponenten ( Sortiert nach Wert )
+| HC-05        BT1       
+| HC-05        BT2       
+| 0,1uF        C1        
+| 0,1uF        C2        
+| 0,1uF        C3        
+| BT1 paired   D1        
+| mode         D2        
+| BT2 paired   D3        
+| mode         D4        
+| ZENERSMALL   D5        
+| JP1          JP1       
+| JP2          JP2       
+| (prog.)      JP3       
+| JP4          JP4       
+| bypass minutes JP5       
+| DCF77   RFM12B JP6       
+| Sound        K1        
+| IR           K2        
+| 3V3          K3        
+| WS2812B_IN   K6        
+| WS2812B_IN   K7        
+| WS2812B_IN   K11       
+| WS2812B_IN   K15       
+| WS2812B_IN   K19       
+| WS2812B_IN   K23       
+| WS2812B_IN   K27       
+| WS2812B_OUT  K4        
+| WS2812B_OUT  K5        
+| WS2812B_IN   K8        
+| WS2812B_OUT  K9        
+| WS2812B_OUT  K10       
+| WS2812B_IN   K12       
+| WS2812B_OUT  K13       
+| WS2812B_OUT  K14       
+| WS2812B_IN   K16       
+| WS2812B_OUT  K17       
+| WS2812B_OUT  K18       
+| WS2812B_IN   K20       
+| WS2812B_OUT  K21       
+| WS2812B_OUT  K22       
+| WS2812B_IN   K24       
+| WS2812B_OUT  K25       
+| WS2812B_OUT  K26       
+| LDR          LDR1      
+| CONN_1       P4        
+| CONN_1       P5        
+| CONN_1       P6        
+| CONN_1       P7        
+| CONN_3X2     P8        
+| CONN_1       P9        
+| CONN_1       P10       
+| CONN_3X2     P11       
+| CONN_1       P12       
+| CONN_1       P13       
+| CONN_1       P14       
+| CONN_1       P15       
+| CONN_1       P16       
+| CONN_1       P17       
+| 100          R2        
+| 220          R3        
+| 220          R20       
+| 390          R4        
+| 470          R7        
+| 470          R8        
+| 470          R10       
+| 470          R11       
+| 680          R5        
+| 680          R18       
+| 1k8          R15       
+| 1k8          R16       
+| 1k8          R17       
+| 2k2          R1        
+| 3k3          R12       
+| 3k3          R13       
+| 3k3          R14       
+| 10k          R6        
+| 10k          R9        
+| 10k          R19       
+| 10k          R21       
+| >            SW1       
+| ok           SW2       
+| <            SW3       
+| RFM12B       U1        
+| RTC          U2        
+| Arduino pro micro U3        
+| BH1750FVI    U4        
+| ESP8266      U8        
+| 10DOF        U9        
+| DCF77        U10       
+| DHT11        U11       
+| SD-CARD      U14       
+| 5V 8A -Co+   U5        
+#Ende der Komponenten
+
+#Ende der Liste
